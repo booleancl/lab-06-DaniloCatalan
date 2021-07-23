@@ -1,0 +1,24 @@
+{
+  "name": "javascript-lab06",
+  "version": "1.0.0",
+  "description": "## Módulo 2: EcmaScript 6. Conocer la sintáxis moderna de Javascript para desarrollar aplicaciones. ## Unidad 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "test:ci": "jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/booleancl/javascript-lab03.git"
+  },
+  "keywords": [],
+  "author": "Academia Boolean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/booleancl/javascript-lab03/issues"
+  },
+  "homepage": "https://github.com/booleancl/javascript-lab03#readme",
+  "devDependencies": {
+    "jest": "^27.0.5"
+  }
+}
