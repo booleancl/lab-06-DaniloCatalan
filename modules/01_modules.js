@@ -2,7 +2,7 @@
 
 let b = 'b'
 
-console.log(arguments);
+//console.log(arguments);
 
 module.exports = {
   a: 'a'

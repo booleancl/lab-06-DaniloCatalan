@@ -42,18 +42,32 @@ ColoredCircleES5.prototype.constructor = CircleES5
 // ES6 way
 class ColoredCircleES6 extends CircleES6 {
   constructor(x, y, radius, color) {
+    super(x,y,color)
     this.color = color;
   }
 }
+// console.log(new ColoredCircleES6(x=10, y=20, color='red'))
 
 // Experiment
 
 class Person {
-  
+  constructor(name){
+    this.name = name
+  }
+  greet(){
+    return `Hello I'm ${this.name}!`
+  }
 }
 
-class Student {
-  
+class Student extends Person{
+  constructor(name,grade){
+    //this.name = name
+    super(name)
+    this.grade = grade
+  }
+  greet(){
+    return `Hello I'm ${this.name}! from ${this.grade}`
+  }
 }
 
 module.exports = { 
